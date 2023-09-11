@@ -1,0 +1,62 @@
+
+.main-container{
+    width: 1320px;
+    /* height: 100vh; */
+    margin: auto;
+
+}
+.main-container>h2{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 100px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.fildone>input{
+    padding-left: 20px;
+    height: 40px;
+    width: 30%;
+    background-color: transparent;
+    border: 1px solid rgb(105, 104, 104);
+    font-size: 16px;
+    outline: none;
+}
+
+#number{
+    margin-right: 20px;
+}
+#password{
+    margin-left: 20px;
+}
+::placeholder{
+    padding-left: 20px;
+}
+.fildone{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.button{
+    text-align: center;
+    margin-top: 50px;
+}
+.button>a>button{
+    background-color: #004e59;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    padding: 15px 40px;
+}
+
+.button>span>a{
+    color: #004e59;
+    text-decoration: none;
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

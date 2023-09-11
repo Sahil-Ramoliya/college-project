@@ -1,0 +1,114 @@
+.Card_inner p.card_info{
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+    padding: 1.4em 2em 1.4em 3.5em!important;
+    margin: 0 0 2em!important;
+    list-style: none!important;
+    width: auto;
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #585e61;
+    position: relative;
+}
+.Card_inner .card_icn{
+    left: 1.5em;
+    top: 1.4em;
+    position: absolute;
+    color: #84be38;
+    font-size: 17px;
+}
+.card_content_row{
+    padding: 50px 20px;
+    margin:  0 45px;
+    max-width: 1260px;
+}
+.return_shop button{
+    background-color: #84be38;
+    font-family: "Roboto";
+    font-size: 16px;
+    border-radius: 40px;
+    padding: .4em 1.2em;
+}
+.return_shop button:hover{
+    background-color: #383d41;
+    border: none;
+}
+.product-name a{
+    text-decoration: underline!important;
+    color: #84be38;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+.product_table{
+    font-family: "Roboto";
+    font-size: 16px;
+    padding: .8em 12px;
+    border-width: 0 0 1px;
+    border-style: solid;
+    color: #585e61;
+}
+.row_default{
+    padding: 50px 20px;
+    margin: 0px 45px;
+    max-width: 1260px;
+}
+.card_item img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.card_item td{
+    vertical-align: middle;
+}
+.card_item .product_qnt{
+    padding: 25px 8px!important;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+
+}
+.cart-collaterals{
+    /* margin-top: 40px;  */
+    padding: 50px 20px;
+    margin: 0 45px;
+}
+.cart-collaterals {
+    margin-left: auto;
+    width: 45%;
+}
+.cart-collaterals h2{
+    font-size: 1.4em;
+    margin-bottom: 40px;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    color: #2f3031;
+}
+.cart_totals th{
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #585e61;
+    padding: .7rem .7rem;
+
+}
+.cart_totals span{
+    color: #808891;
+}
+.cart_totals span.price{
+    font-weight: bold;
+}
+.wc-proceed-to-checkout{
+    padding: 1em 0;
+   
+}
+.wc-proceed-to-checkout a{
+    background-color: #84be38;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 1em;
+    padding: 2% 37%;
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.wc-proceed-to-checkout a:hover{
+    background-color: #383d41;
+}

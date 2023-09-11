@@ -1,0 +1,55 @@
+.containers {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.containers>h2{
+    text-align: center;
+}
+
+.forms-groups {
+    margin-bottom: 20px;
+}
+
+.forms-groups label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.forms-groups input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.forms-groups button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.divforbtn{
+    text-align: center;
+}
+
+.divforbtn>button{
+    padding: 10px 30px;
+    background-color: #004e59;
+}
+@media screen and (max-width: 600px) {
+    .containers {
+        max-width: 100%;
+    }
+}
